@@ -1,0 +1,150 @@
+﻿@{ 
+Layout = null;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>ChatBot Project</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <meta property="og:title" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:description" content="">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    
+    <link href="~/vendor/aos/aos.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="~/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="~/css/chatbot.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="~/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+        <div class="hero-container">
+            <div data-aos="fade-in">
+                <div class="hero-logo">
+                    <h2>ChatBot LOGO</h2>
+                    @*<img class="" src="/img/logo.png" height="150" width="250" alt="">*@
+                </div>
+
+                <h1>Welcome to ChatBot Project</h1>
+                <h2>We create <span class="typed" data-typed-items="nice communication, functional chatting, working for you"></span></h2>
+                <div class="actions">
+                    <a id="chatStart" href="#" class="btn-get-started">Get Strated</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+    <!-- ======= Header ======= -->
+    @*<header id="header" class="">
+    </header>*@
+    <!-- End Header -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        &copy; Copyright <strong>Project ChatBot</strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+
+                        Designed by <a href="#Mehmetcan">Mehmet Can</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+
+    <!-- Chatbot -->
+    <div class="botIcon">
+        <div class="botIconContainer">
+            <div class="iconInner">
+                <i class="fa fa-commenting" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="Layout Layout-open Layout-expand Layout-right">
+            <div class="Messenger_messenger">
+                <div class="Messenger_header">
+                    <h4 class="Messenger_prompt">How can we help you?</h4> 
+                    <span class="chat_hide_icon">
+                        <i class="fa fa-window-minimize" aria-hidden="true" ></i>
+                    </span>
+                    <span class="chat_close_icon">
+                        <i class="fa fa-window-close" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="Messenger_content">
+                    <div class="Messages">
+                        <div class="Messages_list"></div>
+                    </div>
+                    <form id="messenger">
+                        <div class="Input Input-blank">
+                            <!-- 							<textarea name="msg" class="Input_field" placeholder="Send a message..."></textarea> -->
+                            <input name="msg" class="Input_field" placeholder="Send a message...">
+                            <button type="submit" class="Input_button Input_button-send">
+                                <div class="Icon">
+                                    <svg viewBox="1496 193 57 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Group-9-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1523.000000, 220.000000) rotate(-270.000000) translate(-1523.000000, -220.000000) translate(1499.000000, 193.000000)">
+                                            <path d="M5.42994667,44.5306122 L16.5955554,44.5306122 L21.049938,20.423658 C21.6518463,17.1661523 26.3121212,17.1441362 26.9447801,20.3958097 L31.6405465,44.5306122 L42.5313185,44.5306122 L23.9806326,7.0871633 L5.42994667,44.5306122 Z M22.0420732,48.0757124 C21.779222,49.4982538 20.5386331,50.5306122 19.0920112,50.5306122 L1.59009899,50.5306122 C-1.20169244,50.5306122 -2.87079654,47.7697069 -1.64625638,45.2980459 L20.8461928,-0.101616237 C22.1967178,-2.8275701 25.7710778,-2.81438868 27.1150723,-0.101616237 L49.6075215,45.2980459 C5.08414042,47.7885641 49.1422456,50.5306122 46.3613062,50.5306122 L29.1679835,50.5306122 C27.7320366,50.5306122 26.4974445,49.5130766 26.2232033,48.1035608 L24.0760553,37.0678766 L22.0420732,48.0757124 Z" id="sendicon" fill="#96AAB4" fill-rule="nonzero"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chatbot -->
+
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <script src="~/js/jquery-3-6-0.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="~/vendor/aos/aos.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <script src="~/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="~/vendor/typed.js/typed.min.js"></script>
+    <script src="~/js/chatbot.js"></script>
+    <script src="~/js/site.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/js/main.js"></script>
+
+</body>
+
+
+</html>
