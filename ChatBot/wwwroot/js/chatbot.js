@@ -19,7 +19,7 @@ jQuery(document).ready(function ($) {
 				$('.message.loading').remove();
 				$('.Messages_list').append('<div class="msg lastMsg "><span class="avtr"> ' +
 					'<figure style="background-image: url(/img/avatar.png)"></figure></span>' +
-					'<span class="responsText systemMsg">Merhaba, Adını benimle paylaşır mısın?</span></div>');
+					'<span class="responsText systemMsg">welcome to my virtual robot Can you share your name with me so that I can help you better</span></div>');
 				$(".Input_field").removeAttr("disabled");
 
 			};
@@ -112,7 +112,7 @@ jQuery(document).ready(function ($) {
 
 
 		if (firstMessage == 2) {
-			appendMsg("Lütfen Seçeneklerden Birini Seçiniz");
+			appendMsg("lease Choose One of the Options");
 			homeMenu();
 
 
@@ -132,15 +132,15 @@ jQuery(document).ready(function ($) {
 
 			appendMsg(
 				'<button id="btnQuestion1" type="button" href="#" class="btn btn-outline-success m-1 btnClicked">' +
-				'Soru 1 asd sad asda das asd as  ' +
+				'question 1 Departments ' +
 				'<div></div></button>' +
 
 				'<button id="btnQuestion2" type="button" href="#" class="btn btn-outline-success m-1 btnClicked">' +
-				'Soru 2 asd asd sa sa asd sa as s ' +
+				'question 2 What is your name and  which department are you studying ? ' +
 				'<div></div></button>' +
 
 				'<button id="btnQuestion3" type="button" href="#" class="btn btn-outline-success m-1 btnClicked">' +
-				'Soru 3 asd asd sa sa asd sa as s ' +
+				'Question 3 Where do you live ? ' +
 				'<div></div></button>' +
 
 				'<div class=""><button type="button" href="#" class="btn btn-outline-danger m-1 chatFinish">' +
